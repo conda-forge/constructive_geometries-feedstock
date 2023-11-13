@@ -33,6 +33,7 @@ test:
     - pip
 
 about:
+  home: https://github.com/cmutel/constructive_geometries
   summary: Simple tools to define world locations from a set of topological faces and set algebra
   license: BSD-3-Clause
   license_family: BSD

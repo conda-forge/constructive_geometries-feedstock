@@ -1,11 +1,11 @@
-About constructive_geometries
-=============================
+About constructive_geometries-feedstock
+=======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/constructive_geometries-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/cmutel/constructive_geometries
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/constructive_geometries-feedstock/blob/main/LICENSE.txt)
 
 Summary: Simple tools to define world locations from a set of topological faces and set algebra
 

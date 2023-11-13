@@ -16,11 +16,12 @@ build:
 
 requirements:
   host:
+    - python >=3.10
+    - setuptools >=68.0
     - pip
-    - python >=3.6
   run:
+    - python >=3.10
     - country_converter
-    - python >=3.6
     - wrapt
 
 test:
@@ -32,7 +33,6 @@ test:
     - pip
 
 about:
-  home: https://github.com/cmutel/constructive_geometries
   summary: Simple tools to define world locations from a set of topological faces and set algebra
   license: BSD-3-Clause
   license_family: BSD

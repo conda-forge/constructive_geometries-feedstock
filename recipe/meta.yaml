@@ -1,5 +1,5 @@
 {% set name = "constructive_geometries" %}
-{% set version = "0.9.3" %}
+{% set version = "0.9.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/constructive_geometries-{{ version }}.tar.gz
-  sha256: 170d7d0d02342326dcd73d51a1bd7d3571113e71392af77c7e405c82ce059cc8
+  sha256: a694156b4c31f190b5a1fa1d9cff645440c7638942cb902f2590429b42673a4d
 
 build:
   noarch: python

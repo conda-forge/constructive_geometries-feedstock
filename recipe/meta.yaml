@@ -11,21 +11,21 @@ source:
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
 requirements:
   host:
+    - python >=3.10
     - pip
     - setuptools >=68.0
-    - python >=3.10
   run:
-    - certifi
-    - country_converter
-    - fiona
     - python >=3.10
-    - shapely
+    - country_converter
     - wrapt
+    # gis extra
+    - fiona
+    - shapely
 
 test:
   imports:
@@ -40,8 +40,7 @@ about:
   summary: Simple tools to define world locations from a set of topological faces and set algebra
   license: BSD-3-Clause
   license_family: BSD
-  license_file:
-    - LICENSE
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:

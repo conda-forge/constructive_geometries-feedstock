@@ -26,6 +26,9 @@ requirements:
     # gis extra
     - fiona
     - shapely
+    # missing fiona dependency to get pip check to pass until
+    # https://github.com/conda-forge/fiona-feedstock/pull/220 gets merged
+    - certifi
 
 test:
   imports:

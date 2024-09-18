@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -26,9 +26,6 @@ requirements:
     # gis extra
     - fiona
     - shapely
-    # missing fiona dependency to get pip check to pass until
-    # https://github.com/conda-forge/fiona-feedstock/pull/220 gets merged
-    - certifi
 
 test:
   imports:
